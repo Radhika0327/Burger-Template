@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top-navmenu {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: white;
+z-index: 1;
+box-shadow: 0 0 5px rgb(24, 0, 110);
+}
+#top-navmenu a {
+    text-decoration: none;
+    color: rgba(70, 68, 68, 0.438);
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px;
+    margin: 13px;
+    letter-spacing: 3px;
+}
+#right-navmenu {
+    float: right;
+}
+#home-section {
+    position: relative;
+    margin-bottom: 50px;
+}
+#p1 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 45px;
+    color: grey;
+}
+#section-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+#image-container {
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    /* opacity: 0.8; */
+}
+#image-container img{
+    opacity: 0.9;
+}
+#text-container1 {
+    float: left;
+    width: 49% ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+#About-section::after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+#text-container1 p{
+    padding: 10px;
+    text-align: justify;
+}
+#grey{
+    color: grey;
+}
+#image-container2 {
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#image-container2 img{
+    opacity: 0.9;
+}
+#text-container2 {
+    float: left;
+    width: 49% ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+#Menu-section::after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+#text-container2 p{
+    padding: 10px;
+    text-align: justify;
+}
+#Menu-section  h3{
+    text-align: justify;
+    padding: 5px;
+}
+#Menu-section p{
+    color: grey;
+    text-align: justify;
+}
+#Menu-section  h1{
+    text-align: center;
+    padding: 5px;
+}
+#Contact-section{
+    padding: 10px;
+    text-align: center;
+}
+#p2{
+    color: grey;
+    font-size: 20px;
+}
+#Contact-section input[type="text"], #Contact-section input[type="date"] {
+    width: 100%;
+     border: none;
+     border-bottom: 1px solid rgb(46, 45, 45);
+      font-size: 25px;
+      padding: 5px;
+      margin-bottom: 10px;
+}
+#btn1{
+    font-family: serif;
+    font-family: 15px;
+    padding: 10px;
+    background-color: rgb(196, 193, 193);
+    border: none;
+}
+#btn{
+    position: fixed;
+    right: 100px;
+    bottom: 70px;
+   background-color: darkcyan;
+   border: 2px solid red;
+   border-radius: 30px 15px;
+   padding: 20px;
+}
+#footer{
+    padding: 70px;
+    text-decoration: none;
+    background-color:rgb(184, 181, 181);
+    text-align: center;
+}
+#footer a{
+    text-decoration: none;
+}
